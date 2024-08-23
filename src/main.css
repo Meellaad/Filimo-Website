@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-Bold.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-ExtraBold.woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-Black.woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-SemiBold.woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-ExtraLight.woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-Light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-Medium.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../public/assets/fonts/Vazirmatn-Thin.woff2");
+  font-weight: 100;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  /* transition: all 0.3s ease-out; */
+}
+
+body {
+  font-family: "Vazirmatn";
+  direction: rtl;
+  min-height: 100%;
+  background-color: #151515;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+button {
+  font-family: "Vazirmatn";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gradient1 {
+  background: linear-gradient(
+    186.97deg,
+    rgba(21, 21, 21, 0) 5.45%,
+    #151515 94.55%
+  );
+}
+
+#gradient2 {
+  background: radial-gradient(
+    130% 44% at 41% 40%,
+    rgba(0, 0, 0, 0) 0,
+    #151515 100%
+  );
+}
+
+#kids {
+  background-image: -webkit-linear-gradient(245deg, #05c3ff20 0, #15151520 40%);
+}
+
+#faq {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0));
+}
+
+#subscription {
+  background: radial-gradient(100% 410.68% at 100% 100%, rgba(0, 0, 0, 0) 0, rgba(0, 29, 13, .54) 53.55%, rgba(0, 0, 0, 0) 100%);
+  mix-blend-mode: color;
+}
+
+.dropdown:hover .dropdown-content {
+  transition: all 0.3s ease-out;
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-content {
+  transform: translateY(0);
+}
+
+.dropdown-card {
+  box-shadow: 0 8px 16px 0 #000;
+}
+
+.dropdown-content ul::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: -5px;
+  right: 40px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #191919;
+  z-index: -1;
+}

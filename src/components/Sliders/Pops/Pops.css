@@ -1,0 +1,25 @@
+#popular-series .swiper-button-next {
+  background: rgba(6, 6, 6, 0.6);
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#popular-series .swiper-button-next::after {
+  font-size: medium;
+}
+
+#popular-series .swiper-button-prev {
+  background: rgba(6, 6, 6, 0.6);
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#popular-series .swiper-button-prev::after {
+  font-size: medium;
+}
