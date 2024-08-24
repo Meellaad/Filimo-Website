@@ -11,7 +11,7 @@ const Banner = () => {
 
   const fetchSlides = async () => {
     try {
-      let data = await fetch("http://localhost:1000/slider");
+      let data = await fetch("https://meellaad.github.io/filimo-json/db.json/slider");
       let res = await data.json();
       setSlides(res);
     } catch (error) {

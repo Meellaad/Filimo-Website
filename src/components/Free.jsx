@@ -7,7 +7,7 @@ const Free = () => {
 
   const fetchFrees = async () => {
     try {
-      let data = await fetch("http://localhost:1000/frees");
+      let data = await fetch("https://meellaad.github.io/filimo-json/db.json/frees");
       let res = await data.json();
       setFrees(res);
     } catch (error) {
