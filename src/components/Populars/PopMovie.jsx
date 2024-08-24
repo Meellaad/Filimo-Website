@@ -11,7 +11,7 @@ const PopMovie = () => {
 
   const fetchMovie = async () => {
     try {
-      let data = await fetch(`https://meellaad.github.io/filimo-json/db.json/movies/${id}`);
+      let data = await fetch(`https://meellaad.github.io/filimo-json/movies.json/${id}`);
       let res = await data.json();
       setMovie(res);
     } catch (error) {

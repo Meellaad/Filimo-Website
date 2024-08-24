@@ -10,7 +10,7 @@ const Online = () => {
 
   const fetchOnlines = async () => {
     try {
-      let data = await fetch("https://meellaad.github.io/filimo-json/db.json/onlines");
+      let data = await fetch("https://meellaad.github.io/filimo-json/onlines.json");
       let res = await data.json();
       setOnlines(res);
     } catch (error) {

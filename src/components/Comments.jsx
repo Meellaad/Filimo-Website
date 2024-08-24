@@ -7,7 +7,7 @@ const Comments = () => {
 
   const fetchComments = async () => {
     try {
-      let data = await fetch("https://meellaad.github.io/filimo-json/db.json/comments");
+      let data = await fetch("https://meellaad.github.io/filimo-json/comments.json");
       let res = await data.json();
       setComments(res);
     } catch (error) {

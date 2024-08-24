@@ -11,7 +11,7 @@ const PopSeries = () => {
 
   const fetchSeries = async () => {
     try {
-      let data = await fetch("https://meellaad.github.io/filimo-json/db.json/series");
+      let data = await fetch("https://meellaad.github.io/filimo-json/series.json");
       let res = await data.json();
       setSeries(res);
     } catch (error) {
