@@ -30,20 +30,9 @@
   height: 40px !important;
   line-height: 40px !important;
   font-size: 10px;
-  /* margin: 5px; */
   position: absolute;
   top: 15px;
-  /* left: 0; */
-  /* z-index: 15; */
 }
-
-/* #comments .swiper-button-next {
-  left: 20px;
-}
-
-#comments .swiper-button-prev {
-  right: 75%;
-} */
 
 #comments .swiper-button-next::after,
 #comments .swiper-button-prev::after {
