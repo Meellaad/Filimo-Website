@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import { MdOutlineLiveTv } from "react-icons/md";
 
-import cover from "../../../public/assets/images/popular-movies/movie1_cover.jpg";
+import cover from "../../../public/assets/images/popular-movies/movie1-cover.jpg";
 
 const PopMovie = () => {
   let { id } = useParams();

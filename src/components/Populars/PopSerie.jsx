@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import Pops from "../Sliders/Pops/Pops";
 
-import cover from "../../../public/assets/images/popular-series/serie1_cover.jpg";
+import cover from "../../../public/assets/images/popular-series/serie1-cover.jpg";
 
 const PopSerie = () => {
   let { id } = useParams();
