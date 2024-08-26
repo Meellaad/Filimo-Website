@@ -11,7 +11,7 @@ const PopMoviesCards = ({ movies }) => {
         return (
           <NavLink
             key={item.id}
-            to={`/movies/${item.id}`}
+            to={`/Filimo-Website/movies/${item.id}`}
             className={(navDate) =>
               navDate.isActive
                 ? "min-w-[130px] mx-5 relative border-[2px] border-solid scale-[1.1] border-[#ffffffb3] rounded-[10px]"

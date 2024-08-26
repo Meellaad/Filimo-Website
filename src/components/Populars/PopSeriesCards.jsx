@@ -11,7 +11,7 @@ const PopSeriesCards = ({ series }) => {
         return (
           <NavLink
             key={item.id}
-            to={`/${item.id}`}
+            to={`/Filimo-Website/${item.id}`}
             className={(navDate) =>
               navDate.isActive
                 ? "min-w-[130px] mx-5 relative border-[2px] border-solid scale-[1.1] border-[#ffffffb3] rounded-[10px]"

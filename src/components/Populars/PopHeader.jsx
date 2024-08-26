@@ -7,7 +7,7 @@ const PopHeader = () => {
       <h2 className="ml-[16px] font-bold text-base">محبوب‌ترین‌های فیلیمو</h2>
       <div className="border-[1px] border-solid border-[#ffffff1f] rounded-[35px] p-[1px] w-[120px]">
         <NavLink
-          to="/"
+          to="/Filimo-Website/"
           className={(navDate) =>
             navDate.isActive
               ? "inline-block w-[50%] text-center font-bold text-[12px] leading-6 bg-[#ffffff1f] rounded-[16px]"
@@ -18,7 +18,7 @@ const PopHeader = () => {
         </NavLink>
 
         <NavLink
-          to="/movies"
+          to="/Filimo-Website/movies"
           className={(navDate) =>
             navDate.isActive
               ? "inline-block w-[50%] text-center font-bold text-[12px] leading-6 bg-[#ffffff1f] rounded-[16px]"
