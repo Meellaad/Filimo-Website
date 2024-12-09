@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   content: ["./src/**/*.{html,js}"],
   plugins: [react()],
-  base: "/Filimo-Website/",
+  base: "./",
 });
