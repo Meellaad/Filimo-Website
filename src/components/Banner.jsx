@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import Intro from "../components/Sliders/Intro/Intro";
+import Intro from "./Sliders/Intro/Intro";
 
 import { FaRegCircleCheck } from "react-icons/fa6";
 import { MdOutlineCardGiftcard } from "react-icons/md";
