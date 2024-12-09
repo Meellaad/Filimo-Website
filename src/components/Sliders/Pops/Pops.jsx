@@ -21,7 +21,7 @@ const Pops = () => {
 
   const fetchEpisodes = async () => {
     try {
-      let data = await fetch(`https://meellaad.github.io/filimo-json/db.json/series/${id}`);
+      let data = await fetch(`https://meellaad.github.io/filimo-json/series.json/${id}`);
       let res = await data.json();
       setEpisodes(res.episodes);
     } catch (error) {
