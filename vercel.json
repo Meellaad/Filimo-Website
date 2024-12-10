@@ -1,8 +1,8 @@
 {
   "routes":  [
     {"src": "/", "dest": "index.html"},
-    {"src": "/:id", "dest": "/:id"},
+    {"src": "/2", "dest": "/2"},
     {"src": "/movies", "dest": "/movies"},
-    {"src": "/movies/:id", "dest": "/movies/:id"}
+    {"src": "/movies/2", "dest": "/movies/2"}
   ]
 }
