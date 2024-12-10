@@ -1,8 +1,8 @@
 {
   "rewrites":  [
-    {"source": "/", "destination": "index.html"},
-    {"source": "/:id", "destination": "index.html"},
-    {"source": "/movies", "destination": "index.html"},
-    {"source": "/movies/:id", "destination": "index.html"}
+    {"source": "/", "destination": "/"},
+    {"source": "/:id", "destination": "/"},
+    {"source": "/movies", "destination": "/"},
+    {"source": "/movies/:id", "destination": "/"}
   ]
 }
