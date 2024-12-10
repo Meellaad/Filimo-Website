@@ -1,8 +1,5 @@
 {
-  "routes":  [
-    {"src": "/", "dest": "/"},
-    {"src": "/:path", "dest": "/"},
-    {"src": "/movies", "dest": "/"},
-    {"src": "/movies/:id", "dest": "/"}
+  "rewrites":  [
+    {"source": "/", "destination": "/"}
   ]
 }
