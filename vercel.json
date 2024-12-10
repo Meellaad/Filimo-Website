@@ -1,8 +1,8 @@
 {
-  "rewrites":  [
-    {"source": "/", "destination": "index.html"},
-    {"source": "/:id", "destination": "/:id"},
-    {"source": "/movies", "destination": "/movies"},
-    {"source": "/movies/:id", "destination": "/movies/:id"}
+  "routes":  [
+    {"src": "/", "dest": "index.html"},
+    {"src": "/:id", "dest": "/:id"},
+    {"src": "/movies", "dest": "/movies"},
+    {"src": "/movies/:id", "dest": "/movies/:id"}
   ]
 }
