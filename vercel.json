@@ -1,9 +1,9 @@
 {
   "rewrites":  [
     {"source": "/", "destination": "index.html"},
-    {"source": "/:id", "destination": "/:id"},
-    {"source": "/movies", "destination": "/movies"},
-    {"source": "/movies/:id", "destination": "/movies/:id"}
+    {"source": "/:id", "destination": "index.html/:id"},
+    {"source": "/movies", "destination": "index.html/movies"},
+    {"source": "/movies/:id", "destination": "index.html/movies/:id"}
   ],
   "cleanUrls": true
 }
