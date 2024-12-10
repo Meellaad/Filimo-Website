@@ -4,5 +4,6 @@
     {"source": "/:id", "destination": "/:id"},
     {"source": "/movies", "destination": "/movies"},
     {"source": "/movies/:id", "destination": "/movies/:id"}
-  ]
+  ],
+  "cleanUrls": true
 }
